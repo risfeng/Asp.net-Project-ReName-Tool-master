@@ -1,6 +1,6 @@
 ﻿namespace Asp.Net.WebProject.ReName
 {
-    partial class ReplaceForm
+    partial class FileReplaceForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReplaceForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileReplaceForm));
             this.btnReName = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtNewProjectName = new System.Windows.Forms.TextBox();
@@ -40,23 +40,22 @@
             this.cbClearBinAndObj = new System.Windows.Forms.CheckBox();
             this.txtSelectFilePath = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnOpenFileReplace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReName
             // 
-            this.btnReName.Location = new System.Drawing.Point(157, 146);
+            this.btnReName.Location = new System.Drawing.Point(194, 146);
             this.btnReName.Name = "btnReName";
             this.btnReName.Size = new System.Drawing.Size(200, 37);
             this.btnReName.TabIndex = 0;
-            this.btnReName.Text = "重命名";
+            this.btnReName.Text = "开始替换";
             this.btnReName.UseVisualStyleBackColor = true;
             this.btnReName.Click += new System.EventHandler(this.btnReName_Click);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(184, 231);
+            this.linkLabel1.Location = new System.Drawing.Point(152, 214);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(143, 12);
             this.linkLabel1.TabIndex = 1;
@@ -77,24 +76,23 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 3;
-            this.label1.Text = "重命名为：";
+            this.label1.Text = "替换为：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 12);
+            this.label2.Size = new System.Drawing.Size(101, 12);
             this.label2.TabIndex = 5;
-            this.label2.Text = "解决方案名称：";
+            this.label2.Text = "需要替换的名称：";
             // 
             // txtOldProjectName
             // 
             this.txtOldProjectName.Location = new System.Drawing.Point(124, 84);
             this.txtOldProjectName.Name = "txtOldProjectName";
-            this.txtOldProjectName.ReadOnly = true;
             this.txtOldProjectName.Size = new System.Drawing.Size(324, 21);
             this.txtOldProjectName.TabIndex = 4;
             // 
@@ -146,22 +144,11 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "解决方案根目录：";
             // 
-            // btnOpenFileReplace
-            // 
-            this.btnOpenFileReplace.Location = new System.Drawing.Point(11, 196);
-            this.btnOpenFileReplace.Name = "btnOpenFileReplace";
-            this.btnOpenFileReplace.Size = new System.Drawing.Size(137, 24);
-            this.btnOpenFileReplace.TabIndex = 14;
-            this.btnOpenFileReplace.Text = "打开文件名替换工具";
-            this.btnOpenFileReplace.UseVisualStyleBackColor = true;
-            this.btnOpenFileReplace.Click += new System.EventHandler(this.btnOpenFileReplace_Click);
-            // 
-            // ReplaceForm
+            // FileReplaceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 252);
-            this.Controls.Add(this.btnOpenFileReplace);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSelectFilePath);
             this.Controls.Add(this.cbClearBinAndObj);
@@ -175,9 +162,9 @@
             this.Controls.Add(this.btnReName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "ReplaceForm";
+            this.Name = "FileReplaceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Asp.Net项目重名工具-blog.geekek.me";
+            this.Text = "Asp.Net文件重名工具-blog.geekek.me";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,7 +183,6 @@
         private System.Windows.Forms.CheckBox cbClearBinAndObj;
         private System.Windows.Forms.TextBox txtSelectFilePath;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnOpenFileReplace;
     }
 }
 
