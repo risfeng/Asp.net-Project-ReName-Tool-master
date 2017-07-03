@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\bin\Debug\Asp.Net.WebProject.ReName.exe.config
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\bin\Debug\Asp.Net.WebProject.ReName.exe.manifest
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\bin\Debug\Asp.Net.WebProject.ReName.application
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\bin\Debug\Asp.Net.WebProject.ReName.exe
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\bin\Debug\Asp.Net.WebProject.ReName.pdb
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.ReplaceForm.resources
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.FileReplaceForm.resources
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.Properties.Resources.resources
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.exe.manifest
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.application
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.exe
+C:\Users\admin\Desktop\Asp.net-Project-ReName-Tool-master-master\Asp.Net.WebProject.ReName\obj\Debug\Asp.Net.WebProject.ReName.pdb
